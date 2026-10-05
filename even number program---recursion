@@ -1,0 +1,9 @@
+n = int(input("Enter a number: "))
+
+def even_numbers(i, n):
+    if i > n:
+        return
+    print(i)
+    even_numbers(i + 2, n)
+
+even_numbers(0, n)
